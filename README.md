@@ -9,7 +9,7 @@ The API provides functionality to create users and allows the users to share the
   ## Table of Contents 
   - [Description](#description)
   - [Screenshots](#screenshots)
-  - [Video-Walkthrough](#video-walkthrough)
+  - [Video Walkthrough](#video-walkthrough)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
