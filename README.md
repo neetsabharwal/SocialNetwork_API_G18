@@ -25,7 +25,8 @@ The API provides functionality to create users and allows the users to share the
 
   ## Video Walkthrough:
   Part 1:
-
+  https://user-images.githubusercontent.com/74340217/189262939-09c58a5a-00ef-4235-a750-f77234536739.mp4
+  
   Part 2:
 
   Part 3:
