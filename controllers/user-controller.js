@@ -48,16 +48,13 @@ getUserById({ params }, res) {
   },
 
   // delete user
-  deleteUser({ params,body }, res) {
+  deleteUser({ params}, res) {
     User.findOneAndDelete({ _id: params.id })
       .then((dbUserData) => {
         if (!dbUserData) {
           res.status(404).json({ message: "No user found with this id!" });
           return;
         }
-        return Thought.findByIdAndDelete(
-          {username:body.username}
-        )
       })
       .then(dbUserData=>res.json(dbUserData))
       .catch((err) => res.status(400).json(err));
